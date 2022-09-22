@@ -36,3 +36,5 @@ publishing {
     }
   }
 }
+
+tasks.withType<Test> { dependsOn(tasks["publishTestPublicationToMavenLocal"]) }
