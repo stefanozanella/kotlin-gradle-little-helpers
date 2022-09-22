@@ -6,5 +6,5 @@ import javax.inject.Inject
 
 open class ManagedPropertyPrinterTask @Inject constructor(private val config: SampleExtension) : DefaultTask() {
   @TaskAction
-  fun action() = printMarkedOutput(config.property)
+  fun action() = watermarkPrintln(config.property)
 }
