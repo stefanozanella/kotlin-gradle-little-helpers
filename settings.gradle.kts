@@ -9,4 +9,3 @@
  */
 
 rootProject.name = "kotlin-gradle-little-helpers"
-include("lib")
