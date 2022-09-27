@@ -10,7 +10,9 @@ val mavenRepoUrl: String by project
 val mavenSnapshotRepoUrl: String by project
 
 group = "me.stefanozanella"
-version = "0.0.1"
+version = "0.0.2-SNAPSHOT"
+
+java.sourceCompatibility = JavaVersion.VERSION_11
 
 repositories {
   mavenCentral()
